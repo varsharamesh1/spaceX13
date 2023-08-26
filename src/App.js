@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1> Spacex Rocket Encyclopedia </h1>
+        <h2> Spacex Rocket Encyclopedia </h2>
         <div className="row">
           {this.state.rockets.map(rocket => (
             // <h1 key ={rocket.id}> {rocket.name}</h1>
